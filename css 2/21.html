@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+         .card {
+            background-color:white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card-header {
+            background-color: #2D9CDB;
+            border-radius: 15px 15px 0 0;
+            padding: 20px 0;
+        }
+
+        .card-header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-body h2 {
+            margin: 10px 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .card-body p {
+            color: #888;
+            margin: 5px 0;
+        }
+
+        .social-icons {
+            margin: 20px 0;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .social-icons img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .card-footer {
+            margin-top: 20px;
+        }
+
+        .card-footer 1 {
+            background-color: #2D9CDB;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration:none;
+        } 
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-header">
+            <img src="profile.jpg" alt="Profile Image">
+        </div>
+        <div class="card-body">
+            <h2>Frontend Developer</h2>
+            <p>Tech Job Seeker</p>
+            <div class="social-icons">
+                <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="#"><img src="github.png" alt="GitHub"></a>
+                <a href="#"><img src="email.png" alt="Email"></a>
+            </div>
+        </div>
+        <div class="card-footer 1">
+            <a href="#">Message</a>
+        </div>
+    </div>
+
+</body>
+</html>

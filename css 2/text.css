@@ -1,0 +1,123 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Robot',sans-serif;
+
+}
+
+body{ 
+    background-image:url("netfix\ backgroung.jpeg");
+    background-color: #333;
+    
+}
+body::before{
+    content:"";
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:100px;
+    opacity:0.5;
+    
+}
+nav {
+    position: fixed;
+    z-index:1;
+    padding:25px 60px;
+
+}
+nav a img{
+    width:165px;
+    
+
+}
+
+.form-wrapper{
+    position: absolute;
+    left:50%;
+    top:50%;
+    width:43opx;
+    padding:60px;
+    border-radius:4px;
+    border: 2px solid black;
+    background-color: rgb(119, 92, 92);
+    transform:translate(-50%,-50%);
+    
+}
+.form-wrapper h2{
+    color:beige;
+    font-size: 2rem;
+
+}
+.form-wrapper form {
+    padding:25px 0 65px ;
+
+}
+
+form .form-control{
+    position: relative;
+    height:50px;
+    
+    margin-bottom:16px;
+
+}
+.form control input{
+    height:100%;
+    width:100%;
+    background-color: #333;
+    outline:none;
+    border:none;
+    color:#fff;
+    font-size: 1rem;
+    border-radius:4px;
+    padding:0 20px;
+
+}
+.form-control input:is(:focus, :vaild){
+    padding: 16px 20px 0;
+    background:#444;
+
+}
+.form-control label{
+    position: absolute;
+    left:20px;
+    top:50%;
+    color:#8c8c8c;
+    pointer-events:none;
+    font-size:1rem;
+    transform: tranlateY(-50%);
+    transition:all 0.is ease;
+}
+.form-control input:is(:focus, :valid) ~label{
+    font-size:0.75rem;
+    transform: tranlateY(-50%);
+
+}
+form button{
+    width:100%;
+    padding:16px 0;
+    font-size:1rem;
+    border:none;
+    outline:none;
+    color:#fff;
+    cursor:pointer;
+    font-weight:500;
+    border-radius:4px;
+    background:#e50914;
+    margin:25px 0 10px;
+    transition:1.1s ease;
+
+
+}
+form button:hover {
+    background :#c40812;
+}
+form .form-help{
+    display:flex;
+    justify-content:space-between;
+}
+.form-wrapper :where(label, p, small, a) {
+    color:#b3b3b3;
+}

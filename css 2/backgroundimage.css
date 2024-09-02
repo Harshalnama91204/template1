@@ -1,0 +1,22 @@
+ div{
+    height: 100px;
+    width:100px;
+    background-color: aqua;
+    border:2px solid black;
+    display:inline-block;
+ }
+ #box1{
+    background-image: url("netfix\ backgroung.jpeg");
+    background-size:cover;
+ }
+ body{
+    background-image: url("netfix\ backgroung.jpeg");
+ }
+ .left{
+   width:40%;
+   border: 1px solid black;
+
+ }
+ .right{
+   width:70%;
+ }

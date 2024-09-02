@@ -1,0 +1,33 @@
+
+
+.a{
+    height: 100px;
+    width:100%; 
+    /* background-color:aqua; */
+    border:2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display:inline-block;  */
+}
+#box1{
+    width: 20%;
+    height:40%;
+}
+#box3{
+    width: 20%;
+    height:40%;
+}
+#box2{
+    width: 20%;
+    height:40%;
+}
+#box4{
+    width: 20%;
+    height:40%;
+}
+#box5{
+    width: 20%;
+    height:40%;
+}
